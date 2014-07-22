@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0716A5A11782A4E6005794FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0716A5A01782A4E6005794FD /* UIKit.framework */; };
+		0716A5A31782A4E6005794FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0716A5A21782A4E6005794FD /* Foundation.framework */; };
+		0716A5A51782A4E6005794FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0716A5A41782A4E6005794FD /* CoreGraphics.framework */; };
+		0716A5AB1782A4E6005794FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0716A5A91782A4E6005794FD /* InfoPlist.strings */; };
+		0716A5AD1782A4E6005794FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716A5AC1782A4E6005794FD /* main.m */; };
+		0716A5B11782A4E6005794FD /* HAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716A5B01782A4E6005794FD /* HAAppDelegate.m */; };
+		0716A5B31782A4E6005794FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716A5B21782A4E6005794FD /* Default.png */; };
+		0716A5B51782A4E6005794FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716A5B41782A4E6005794FD /* Default@2x.png */; };
+		0716A5B71782A4E6005794FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716A5B61782A4E6005794FD /* Default-568h@2x.png */; };
+		0716A5BA1782A4E6005794FD /* HAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716A5B91782A4E6005794FD /* HAViewController.m */; };
+		0716A5BD1782A4E6005794FD /* HAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0716A5BB1782A4E6005794FD /* HAViewController.xib */; };
+		0716A5C51782A510005794FD /* HAHistogramAni.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716A5C41782A510005794FD /* HAHistogramAni.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0716A59D1782A4E6005794FD /* HistogramAni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistogramAni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0716A5A01782A4E6005794FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0716A5A21782A4E6005794FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0716A5A41782A4E6005794FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0716A5A81782A4E6005794FD /* HistogramAni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HistogramAni-Info.plist"; sourceTree = "<group>"; };
+		0716A5AA1782A4E6005794FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0716A5AC1782A4E6005794FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0716A5AE1782A4E6005794FD /* HistogramAni-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HistogramAni-Prefix.pch"; sourceTree = "<group>"; };
+		0716A5AF1782A4E6005794FD /* HAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAAppDelegate.h; sourceTree = "<group>"; };
+		0716A5B01782A4E6005794FD /* HAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAAppDelegate.m; sourceTree = "<group>"; };
+		0716A5B21782A4E6005794FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0716A5B41782A4E6005794FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0716A5B61782A4E6005794FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0716A5B81782A4E6005794FD /* HAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAViewController.h; sourceTree = "<group>"; };
+		0716A5B91782A4E6005794FD /* HAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAViewController.m; sourceTree = "<group>"; };
+		0716A5BC1782A4E6005794FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HAViewController.xib; sourceTree = "<group>"; };
+		0716A5C31782A510005794FD /* HAHistogramAni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAHistogramAni.h; sourceTree = "<group>"; };
+		0716A5C41782A510005794FD /* HAHistogramAni.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAHistogramAni.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0716A59A1782A4E6005794FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0716A5A11782A4E6005794FD /* UIKit.framework in Frameworks */,
+				0716A5A31782A4E6005794FD /* Foundation.framework in Frameworks */,
+				0716A5A51782A4E6005794FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0716A5941782A4E5005794FD = {
+			isa = PBXGroup;
+			children = (
+				0716A5A61782A4E6005794FD /* HistogramAni */,
+				0716A59F1782A4E6005794FD /* Frameworks */,
+				0716A59E1782A4E6005794FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0716A59E1782A4E6005794FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0716A59D1782A4E6005794FD /* HistogramAni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0716A59F1782A4E6005794FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0716A5A01782A4E6005794FD /* UIKit.framework */,
+				0716A5A21782A4E6005794FD /* Foundation.framework */,
+				0716A5A41782A4E6005794FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0716A5A61782A4E6005794FD /* HistogramAni */ = {
+			isa = PBXGroup;
+			children = (
+				0716A5AF1782A4E6005794FD /* HAAppDelegate.h */,
+				0716A5B01782A4E6005794FD /* HAAppDelegate.m */,
+				0716A5B81782A4E6005794FD /* HAViewController.h */,
+				0716A5B91782A4E6005794FD /* HAViewController.m */,
+				0716A5BB1782A4E6005794FD /* HAViewController.xib */,
+				0716A5A71782A4E6005794FD /* Supporting Files */,
+				0716A5C31782A510005794FD /* HAHistogramAni.h */,
+				0716A5C41782A510005794FD /* HAHistogramAni.m */,
+			);
+			path = HistogramAni;
+			sourceTree = "<group>";
+		};
+		0716A5A71782A4E6005794FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0716A5A81782A4E6005794FD /* HistogramAni-Info.plist */,
+				0716A5A91782A4E6005794FD /* InfoPlist.strings */,
+				0716A5AC1782A4E6005794FD /* main.m */,
+				0716A5AE1782A4E6005794FD /* HistogramAni-Prefix.pch */,
+				0716A5B21782A4E6005794FD /* Default.png */,
+				0716A5B41782A4E6005794FD /* Default@2x.png */,
+				0716A5B61782A4E6005794FD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0716A59C1782A4E6005794FD /* HistogramAni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0716A5C01782A4E6005794FD /* Build configuration list for PBXNativeTarget "HistogramAni" */;
+			buildPhases = (
+				0716A5991782A4E6005794FD /* Sources */,
+				0716A59A1782A4E6005794FD /* Frameworks */,
+				0716A59B1782A4E6005794FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HistogramAni;
+			productName = HistogramAni;
+			productReference = 0716A59D1782A4E6005794FD /* HistogramAni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0716A5951782A4E5005794FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = duan;
+			};
+			buildConfigurationList = 0716A5981782A4E5005794FD /* Build configuration list for PBXProject "HistogramAni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0716A5941782A4E5005794FD;
+			productRefGroup = 0716A59E1782A4E6005794FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0716A59C1782A4E6005794FD /* HistogramAni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0716A59B1782A4E6005794FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0716A5AB1782A4E6005794FD /* InfoPlist.strings in Resources */,
+				0716A5B31782A4E6005794FD /* Default.png in Resources */,
+				0716A5B51782A4E6005794FD /* Default@2x.png in Resources */,
+				0716A5B71782A4E6005794FD /* Default-568h@2x.png in Resources */,
+				0716A5BD1782A4E6005794FD /* HAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0716A5991782A4E6005794FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0716A5AD1782A4E6005794FD /* main.m in Sources */,
+				0716A5B11782A4E6005794FD /* HAAppDelegate.m in Sources */,
+				0716A5BA1782A4E6005794FD /* HAViewController.m in Sources */,
+				0716A5C51782A510005794FD /* HAHistogramAni.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0716A5A91782A4E6005794FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0716A5AA1782A4E6005794FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0716A5BB1782A4E6005794FD /* HAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0716A5BC1782A4E6005794FD /* en */,
+			);
+			name = HAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0716A5BE1782A4E6005794FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0716A5BF1782A4E6005794FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0716A5C11782A4E6005794FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HistogramAni/HistogramAni-Prefix.pch";
+				INFOPLIST_FILE = "HistogramAni/HistogramAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0716A5C21782A4E6005794FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HistogramAni/HistogramAni-Prefix.pch";
+				INFOPLIST_FILE = "HistogramAni/HistogramAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0716A5981782A4E5005794FD /* Build configuration list for PBXProject "HistogramAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0716A5BE1782A4E6005794FD /* Debug */,
+				0716A5BF1782A4E6005794FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0716A5C01782A4E6005794FD /* Build configuration list for PBXNativeTarget "HistogramAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0716A5C11782A4E6005794FD /* Debug */,
+				0716A5C21782A4E6005794FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0716A5951782A4E5005794FD /* Project object */;
+}
